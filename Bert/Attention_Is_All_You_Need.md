@@ -73,7 +73,7 @@ $a = q·k$
 
 ![](1-8.png)
 
-事实上，这里甚至可以对$a^{1}$本身计算其q矩阵和k矩阵，然后计算`Attention score`。得到`Attention score`后，可以通过一些机制，对`Attention score`进行处理，本篇文章中使用的是`Softmax`，并且采取了一些其他的操作，当然这里也可以使用其余的方式:
+事实上，这里甚至可以对 $a^{1}$ 本身计算其q矩阵和k矩阵，然后计算`Attention score`。得到`Attention score`后，可以通过一些机制，对`Attention score`进行处理，本篇文章中使用的是`Softmax`，并且采取了一些其他的操作，当然这里也可以使用其余的方式:
 
 ![](1-9.png)
 
